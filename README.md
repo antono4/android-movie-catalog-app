@@ -1,4 +1,7 @@
 # Discover. (a Movie Catalogue App)
+
+> **Created by Antono**
+
 ![alt text](https://raw.githubusercontent.com/adityarohman340/discover_second_submission_jetpack_pro/master/preview.jpg)
 
 Features:
