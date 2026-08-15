@@ -1,1 +1,26 @@
-Last updated: 2026-08-15 14:26:19 WIB
+# android-movie-catalog-app
+
+
+
+## 📋 Overview
+
+This repository contains **116 files** and is built with the following technologies:
+
+Not detected
+
+## 🚀 Quick Start
+
+## ✨ Features
+
+- 📝 Auto-generated documentation
+
+## 🛠️ Technologies
+
+Not detected
+
+## 📄 License
+
+MIT License
+
+---
+*Last updated: 2026-08-15 14:27:08 WIB*
