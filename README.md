@@ -1,76 +1,66 @@
-<!-- README ini dihasilkan otomatis oleh .github/workflows/generate-readme.yml -->
-<!-- Jangan edit manual: perubahan akan ditimpa pada run berikutnya. -->
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
-<h1 align="center">android-movie-catalog-app 👋</h1>
+<h1 align="center">Project 👋</h1>
 
 <p align="center">
-  <em>Apps that make to see latest catalogue movie</em>
+  <strong></strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/antono4/android-movie-catalog-app"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/android-movie-catalog-app-blue?logo=github"></a>
-  <img alt="Files" src="https://img.shields.io/badge/Files-111-informational">
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/antono4/android-movie-catalog-app">
+  <a href="https://antono4.github.io/android-movie-catalog-app/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
+  <img alt="Files" src="https://img.shields.io/badge/Files-114-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-09-18 08:41:21 WIB-lightgrey">
 </p>
 
 ---
 
 ## 📖 Tentang
 
-Repository **`android-movie-catalog-app`** adalah proyek perangkat lunak.
-GitHub Pages belum diaktifkan untuk repository ini.
+Repository **`android-movie-catalog-app`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/android-movie-catalog-app/`](https://antono4.github.io/android-movie-catalog-app/).
 
 ## 🗂️ Struktur Proyek
 
 ```
 android-movie-catalog-app/
-.github/
-  workflows/
-.gitignore
-.idea/
-  codeStyles/
-  gradle.xml
-  inspectionProfiles/
-  misc.xml
-  render.experimental.xml
-  runConfigurations.xml
-LICENSE
-app/
-  .gitignore
-  build.gradle
-  proguard-rules.pro
-  src/
-build.gradle
-gradle/
-gradle.properties
-  wrapper/
-gradlew
-gradlew.bat
-preview.jpg
-settings.gradle
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
 ```
 
 ## 🛠️ Teknologi
 
-Berdasarkan ekstensi berkas yang terdeteksi di repository:
+Berdasarkan isi repository, proyek ini menggunakan:
 
-- `Tidak`
-- `terdeteksi`
+- `HTML`
+- `CSS`
+- `JavaScript`
 
-> Total **111 berkas** di repository (di luar `.git`, `node_modules`, `dist`, dan `build`).
+> Total **114 file** terdeteksi di repository.
 
 ## 🚀 Menjalankan Secara Lokal
 
-Lihat berkas konfigurasi di repository ini untuk cara menjalankannya.
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
+
+```bash
+# Tanpa dependency
+python3 -m http.server 8000
+# lalu buka http://localhost:8000
+
+# atau dengan PHP (untuk form handler di forms/)
+php -S localhost:8000
+```
 
 ## 📬 Kontak
 
 - GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/android-movie-catalog-app/](https://antono4.github.io/android-movie-catalog-app/)
 
 ## 📄 Lisensi
 
-Proyek ini dilisensikan di bawah MIT License — lihat berkas [`LICENSE`](./LICENSE).
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
 
 ---
 
-<sub>README ini di-generate otomatis oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
+<sub>README ini di-generate otomatis pada **2026-09-18 08:41:21 WIB** oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
